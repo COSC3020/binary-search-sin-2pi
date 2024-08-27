@@ -1,6 +1,9 @@
+
+
 function binarySearch(list, element) {
     for(let i = 0; i < list.length; i++){
-        if(nums[i] == element) return i;
+        if(list[i] == element) return i;
     }
     return -1;
 }
+
