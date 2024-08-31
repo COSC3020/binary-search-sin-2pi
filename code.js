@@ -5,8 +5,8 @@ function binarySearch(list, element) {
   while (left <= right) {
     let mid = Math.floor((right + left) / 2);
 
-    if (list[mid] === element || list.length === 0) {
-      return element;
+    if (list[mid] === element) {
+      return mid;
     }
     if (list[mid] > element) {
       right = mid - 1;
