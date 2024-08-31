@@ -8,5 +8,9 @@ Use the template in `code.js`. The tests in `code.test.js` will be run
 automatically every time you push to Github; if they pass you are done.
 
 # Credits
-Solved Leetcode 704. Binary Search, and copied my answer from there, just had to change the variables.
-I used ChatGPT for some basic syntax stuff, with the for loop because I am new to JS.
+I used ChatGPT for some basic syntax and code structure help, because I am new to JS.
+
+I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.
