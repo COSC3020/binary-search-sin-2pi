@@ -9,7 +9,7 @@ function binarySearch(list, element) {
 
     if (list[mid] > element) {
       right = mid - 1;
-    } else if (list[mid] < element) {
+    } else {
       left = mid + 1;
     } 
   }
