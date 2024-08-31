@@ -5,13 +5,13 @@ function binarySearch(list, element) {
   while (left <= right) {
     let mid = Math.floor((right + left) / 2);
 
+    if (list[mid ] === target) { return mid}
+
     if (list[mid] > element) {
       right = mid - 1;
     } else if (list[mid] < element) {
       left = mid + 1;
-    } else {
-      return element;
-    }
+    } 
   }
   return -1;
 }
